@@ -1,0 +1,22 @@
+*TEST*
+
+	- use physics for camera movements
+		-figure out what's fun
+		-add stabilize and slowdown functions
+		does there need to be vertical movement in addition to side to side strafing
+
+*IMPLEMENT*
+
+	- error handling on mesh/texture/shader loading
+	- irrklang audio scenenode
+	- state manager
+	- input engine
+	- physics
+	- camera controller class
+	- bump mapping (requires calculating tangent vectors)
+
+
+
+
+enhance lighting effects to include multiple light sources
+tie physics into the entity system to include automatic set up of objects
