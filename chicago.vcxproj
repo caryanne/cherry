@@ -77,33 +77,18 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>.\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;glfw3.lib;BulletDynamics.lib;BulletCollision.lib;LinearMath.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="chicago\Camera.cpp" />
     <ClCompile Include="chicago\imgui\imgui.cpp" />
     <ClCompile Include="chicago\imgui\imguiRenderGL3.cpp" />
     <ClCompile Include="chicago\Main.cpp" />
-    <ClCompile Include="chicago\Mesh.cpp" />
-    <ClCompile Include="chicago\SceneManager.cpp" />
-    <ClCompile Include="chicago\SceneNode.cpp" />
-    <ClCompile Include="chicago\Shader.cpp" />
-    <ClCompile Include="chicago\ShaderManager.cpp" />
     <ClCompile Include="chicago\soil\image_DXT.c" />
     <ClCompile Include="chicago\soil\image_helper.c" />
     <ClCompile Include="chicago\soil\SOIL.c" />
     <ClCompile Include="chicago\soil\stb_image_aug.c" />
-    <ClCompile Include="chicago\tinyobjloader\tiny_obj_loader.cc" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="chicago\Camera.h" />
-    <ClInclude Include="chicago\Mesh.h" />
-    <ClInclude Include="chicago\SceneManager.h" />
-    <ClInclude Include="chicago\SceneNode.h" />
-    <ClInclude Include="chicago\Shader.h" />
-    <ClInclude Include="chicago\ShaderManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
